@@ -127,7 +127,8 @@ form.addEventListener("submit", (e: any) => {
   localStorage.setItem("number", number.value);
   localStorage.setItem("email", email.value);
   localStorage.setItem("address", address.value);
-
+  localStorage.setItem("interest", interest.value);
+ 
   if (pics.files.length >= 0) {
     let reader = new FileReader();
     reader.addEventListener("load", () => {
